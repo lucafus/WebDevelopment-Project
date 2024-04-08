@@ -2,8 +2,7 @@
 /* Estilos globales */
 * {
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 
 body {
     min-height: 100vh;
@@ -39,6 +38,8 @@ body {
     padding: 0 4px;
 }
 
+
+
 .links a {
     text-decoration: none;
     color: grey;
@@ -48,8 +49,10 @@ body {
     color: black;
 }
 
-@media (max-width: 840px) {
-    .links {
+@media (max-width: 900px) {
+
+
+      .links {
         flex-direction: row;
         align-items: center;
         justify-content: center;
@@ -88,6 +91,7 @@ footer {
 }
 
 /* Inicio */
+
 .header-inicio {
     display: flex;
     justify-content: space-around;
@@ -99,8 +103,7 @@ footer {
 }
 
 .header-inicio img {
-    display: flex;
-    justify-content: baseline;
+    padding-right: 600px;
 }
 
 .links-inicio {
@@ -167,6 +170,12 @@ nav {
 }
 
 @media (max-width: 900px) {
+
+    .header-inicio img {
+       padding: 10px;
+
+    }
+
     nav {
         padding: 10px;
         padding-bottom: 30px;
@@ -358,6 +367,7 @@ padding: 20px;
 
 
 /* Contacto */
+
 .Contacto {
     display: flex;
     padding: 50px;
@@ -374,28 +384,53 @@ padding: 20px;
     color: grey;
     padding-top: 20px;
     padding-left: 120px;
+    
 }
 
-.text-c h2 {
-    padding-left: 20px;
+.text-c h2, 
+.text-c h4 {
+    
     padding-bottom: 10px;
 }
 
-.NA {
-    padding: 20px;
+
+
+.Nombre,
+.Apellido,
+.Email,
+.Numero {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
 }
 
-.EN {
-    padding: 20px;
+
+.Nombre-Mail {
+display: flex;
+flex-direction: row;
+
+}
+
+.text-c form input[type="text"],
+.text-c form input[type="email"],
+.text-c form input[type="tel"],
+.text-c form select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .opciones {
     padding-top: 50px;
     
+    
+    
 }
 
 @media (max-width: 900px) {
 
+   
 .Contacto {
     display: flex;
     flex-direction: column;
@@ -416,6 +451,7 @@ padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 }
