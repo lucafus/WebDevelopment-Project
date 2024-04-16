@@ -68,7 +68,7 @@ footer {
     padding: 10px;
     justify-content: center;
     min-height: 100;
-    margin-top: 100px;
+    margin-top: 220px;
 }
 
 .icons {
@@ -81,7 +81,13 @@ footer {
     background-color: black;
 }
 
+@media (max-width: 800px) {
+    footer {
+        margin-top: 0px
+    }
 
+
+}
 
 /* Inicio */
 .header-inicio {
@@ -233,7 +239,8 @@ nav {
         align-items: center;
         text-align: center;
         padding: 50px;
-        padding-bottom: 250px;
+        padding-top: 100px;
+        padding-bottom: 220px;
     }
 
     .texto-nosotros {
@@ -450,7 +457,7 @@ nav {
     .Contacto {
         display: flex;
         flex-direction: column;
-        padding-bottom: 300px;
+        padding-bottom: 150px;
     }
 
     .img img {
