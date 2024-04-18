@@ -1,12 +1,16 @@
 .text-n-contenedor {
     padding: 50px;
+    padding-top: 120px;
     padding-left: 100px;
+    margin-bottom: 150px;
+    
     
 }
 
 .texto-nosotros {
     padding-right: 300px;
     padding-bottom: 30px;
+    border-bottom: solid 5px rgb(237, 214, 6);
 }
 
 .titulo-n {
@@ -21,11 +25,13 @@
         align-items: center;
         text-align: center;
         padding: 50px;
-        padding-bottom: 250px;
+        padding-top: 100px;
+        padding-bottom: 220px;
     }
 
     .texto-nosotros {
         padding: 0px;
         font-size: small;
+        padding-bottom: 50px;
     }
 }

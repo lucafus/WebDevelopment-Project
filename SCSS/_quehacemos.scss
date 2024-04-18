@@ -31,12 +31,19 @@
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    margin: 20px;
+    padding-bottom: 20px;
+    font-style: italic;
+    
 }
+
 
 .subtitulo-img {
     display: flex;
     flex-direction: row;
-    margin: 20px 100px 0 100px;
+    margin: 20px 50px 0 50px;
+    padding-top: 10px;
+    border-top: solid 4px rgb(237, 214, 6);
 }
 
 @media (max-width: 800px) {
