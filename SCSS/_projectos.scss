@@ -76,3 +76,43 @@
     bottom: 70px;
     width: 1100px;
 }
+
+@media (max-width: 1100px) {
+    .project1,
+    .project2,
+    .project3 {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 10px;
+    }
+    .project1 img,
+    .project2 img,
+    .project3 img {
+      display: flex;
+      height: auto;
+      width:100vh ;
+     
+      padding-bottom: 20px;
+      padding: 10px;
+    }
+    .subtitulo-p {
+      display: flex;
+      width: 100vh;
+      height: 10px;
+    }
+    .text-p-contenedor {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      position: relative;
+      top: 0;
+      right: 0;
+    }
+
+    .sidebar {
+        display: none;
+    }
+   
+
+ 
+  }
