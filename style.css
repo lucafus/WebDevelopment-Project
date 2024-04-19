@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 .header {
   display: flex;
   justify-content: space-around;
@@ -264,7 +269,7 @@ nav {
   top: 0;
   right: 0;
   width: 80px;
-  height: 100%;
+  height: 2700px;
 }
 
 .sidebar h1 {
@@ -297,11 +302,15 @@ nav {
 }
 
 .project1,
-.project2,
-.project3 {
+.project2 {
   display: flex;
   flex-direction: row;
   padding-bottom: 50px;
+}
+
+.project3 {
+  display: flex;
+  flex-direction: row;
 }
 
 .project1 img,
@@ -336,7 +345,7 @@ nav {
   width: 1100px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1500px) {
   .project1,
   .project2,
   .project3 {
@@ -344,22 +353,26 @@ nav {
     flex-direction: column;
     padding-bottom: 10px;
   }
+  h1 {
+    margin: 0;
+  }
   .project1 img,
   .project2 img,
   .project3 img {
     display: flex;
-    height: auto;
-    width: 100vh;
+    height: 50vh;
+    width: 100%;
     padding-bottom: 20px;
-    padding: 10px;
+    padding-right: 5px;
   }
   .subtitulo-p {
     display: flex;
-    width: 100vh;
+    width: 60%;
     height: 10px;
   }
   .text-p-contenedor {
     display: flex;
+    position: relative;
     flex-direction: column;
     padding: 10px;
     position: relative;
