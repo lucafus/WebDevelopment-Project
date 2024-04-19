@@ -246,10 +246,12 @@ nav {
   }
   .text-q .titulo-q {
     padding: 10px;
+    margin: 10px;
   }
   .text-q .texto-q {
     padding: 20px;
     text-align: center;
+    margin: 10px;
   }
   .imagecontainer {
     display: flex;
@@ -258,6 +260,7 @@ nav {
   .subtitulo-img {
     display: flex;
     padding: 20px;
+    margin: 0px;
   }
   .image1, .image2, .image3 {
     padding: 10px;
@@ -298,7 +301,7 @@ nav {
 }
 
 .Projectos {
-  padding-bottom: 50px;
+  padding-bottom: 7x0px;
 }
 
 .project1,
@@ -488,7 +491,8 @@ nav {
   }
   .Nombre-Apellido,
   .Email-Numero {
-    flex-direction: column;
+    flex-direction: row;
+    gap: 5px;
   }
 }
 

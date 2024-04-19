@@ -57,11 +57,13 @@
 
     .text-q .titulo-q {
         padding: 10px;
+        margin: 10px;
     }
 
     .text-q .texto-q {
         padding: 20px;
         text-align: center;
+        margin: 10px
     }
 
     .imagecontainer {
@@ -72,6 +74,7 @@
     .subtitulo-img {
         display: flex;
         padding: 20px;
+        margin: 0px;
     }
 
     .image1, .image2, .image3 {
