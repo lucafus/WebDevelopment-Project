@@ -1,21 +1,29 @@
-
-
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
 
 .Contacto {
     display: flex;
     padding: 50px;
+    width: 100%;
     
 }
 
 .img img {
     border-radius: 10px;
     max-width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+    
 }
 
 .text-c {
     padding: 20px;
     color: grey;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-left: 120px;
 }
 
