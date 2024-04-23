@@ -426,25 +426,16 @@ nav {
     padding-bottom: 50px;
   }
 }
-html {
-  height: 100%;
-}
-
-body {
-  min-height: 100%;
-}
-
 .Contacto {
   display: flex;
-  padding: 50px;
   width: 100%;
+  padding-bottom: 50px;
 }
 
 .img img {
   border-radius: 10px;
   max-width: 100%;
-  object-fit: contain;
-  border-radius: 20px;
+  object-fit: fill;
 }
 
 .text-c {
@@ -492,8 +483,8 @@ body {
   .Contacto {
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
-    padding-bottom: 150px;
+    padding: 20px;
+    padding-bottom: 50px;
     width: auto;
   }
   .img img {
@@ -509,7 +500,7 @@ body {
   }
   .Nombre-Apellido,
   .Email-Numero {
-    flex-direction: row;
+    flex-direction: column;
     gap: 5px;
   }
 }
