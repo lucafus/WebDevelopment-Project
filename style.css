@@ -264,7 +264,7 @@ nav {
     margin: 0px;
   }
   .image1, .image2, .image3 {
-    padding: 10px;
+    gap: 20px;
   }
 }
 .contenedor-sidebar .sidebar {
@@ -397,6 +397,10 @@ nav {
   padding-top: 120px;
   padding-left: 100px;
   margin-bottom: 150px;
+  background-image: url("../Imagenes/Imagenosotros.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .texto-nosotros {
@@ -428,14 +432,15 @@ nav {
 }
 .Contacto {
   display: flex;
-  width: 100%;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding: 10px;
 }
 
 .img img {
-  border-radius: 10px;
+  border-radius: 20px;
+  padding-left: 30px;
   max-width: 100%;
-  object-fit: fill;
+  padding-bottom: 40px;
 }
 
 .text-c {
@@ -443,6 +448,7 @@ nav {
   color: grey;
   padding-top: 60px;
   padding-left: 120px;
+  padding-right: 0px;
 }
 
 .text-c h2 {
@@ -485,11 +491,12 @@ nav {
     flex-direction: column;
     padding: 20px;
     padding-bottom: 50px;
+    padding-left: 10px;
     width: auto;
   }
   .img img {
     display: flex;
-    object-fit: fill;
+    padding: 10px;
   }
   .text-c {
     padding: 10px;
