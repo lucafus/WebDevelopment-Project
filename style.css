@@ -491,7 +491,7 @@ nav {
     flex-direction: column;
     padding: 20px;
     padding-bottom: 50px;
-    padding-left: 10px;
+    padding-left: 0px;
     width: auto;
   }
   .img img {
