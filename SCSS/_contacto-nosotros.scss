@@ -1,11 +1,31 @@
 
 /* Contacto */
 
+.contacto {
+
+    display: flex;
+    justify-content: end;
+    color: white;
+    background-color:rgb(237, 214, 6);
+    bottom: 10px;
+    width: 50%;
+    padding: 2px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+    
+}
+
+h2.contacto { 
+
+    padding-left: 100px;
+       
+}
+
 .Contacto {
     display: flex;
     padding: 50px;
-    
-    
+    padding-bottom: 0px;
+        
 }
 
 .img img {
@@ -13,7 +33,8 @@
     padding-left: 30px;
     max-width: 100%;
     padding-bottom: 40px;
-    border-radius: 20px;    
+    border-radius: 10px;
+
 }
 
 .text-c {
@@ -90,26 +111,19 @@
     }
 }
 
-
 /* Nosotros */ 
 
 .text-n-contenedor {
     padding: 50px;
-    padding-top: 120px;
+    padding-top: 50px;
     padding-left: 100px;
-    margin-bottom: 150px;
-    background-image: url("../Imagenes/Imagenosotros.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;    
-   
-    
+    padding-bottom: 0px;
 }
 
 .texto-nosotros {
     padding-right: 300px;
-    padding-bottom: 30px;
-    border-bottom: solid 5px rgb(237, 214, 6);
+    padding-bottom: 90px;
+    border-bottom: solid 2px rgb(237, 214, 6);
    
 }
 
