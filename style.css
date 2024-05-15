@@ -37,6 +37,7 @@
 
 .links a:hover {
   color: black;
+  transform: scale(1.2);
 }
 
 @media (max-width: 900px) {
@@ -134,9 +135,37 @@ nav {
   padding-right: 600px;
 }
 
+@keyframes aparecer-inicio {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.Introduccion {
+  animation-duration: 2s;
+  animation-name: aparecer-inicio;
+  animation-iteration-count: initial;
+}
+
 .location {
   display: flex;
   padding: 30px 60px 30px 0px;
+}
+
+@keyframes aparecer-location {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.location {
+  animation-duration: 2s;
+  animation-name: aparecer-location;
+  animation-iteration-count: initial;
 }
 
 .text {
@@ -150,7 +179,7 @@ nav {
 }
 
 .location .map {
-  border-radius: 10px;
+  border-radius: 30px;
   width: 100%;
   height: 400px;
   position: relative;
@@ -207,6 +236,8 @@ nav {
   padding-right: 30px;
   margin-top: 100px;
   margin-bottom: 10px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .text-q .texto-q {
@@ -252,6 +283,9 @@ nav {
 }
 
 @media (max-width: 800px) {
+  .location {
+    padding-bottom: 0px;
+  }
   .text-q {
     display: flex;
     flex-direction: column;
@@ -271,6 +305,8 @@ nav {
   .imagecontainer {
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
   .subtitulo-img {
     display: flex;
@@ -334,7 +370,7 @@ nav {
 .project1 img,
 .project2 img,
 .project3 img {
-  border-top-right-radius: 20px;
+  border-top-right-radius: 100px;
   object-fit: cover;
 }
 
@@ -357,8 +393,8 @@ nav {
   color: white;
   background-color: black;
   position: relative;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   padding: 30px;
   bottom: 70px;
   width: 1100px;
@@ -421,19 +457,27 @@ nav {
 
 h2.contacto {
   padding-left: 100px;
+  border-bottom-right-radius: 15px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: initial;
 }
 
 .Contacto {
   display: flex;
   padding: 50px;
   padding-bottom: 0px;
+  padding-top: 100px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: initial;
 }
 
 .img img {
   padding-left: 30px;
   max-width: 100%;
   padding-bottom: 40px;
-  border-radius: 10px;
+  border-top-right-radius: 50px;
 }
 
 .text-c {
@@ -510,11 +554,22 @@ h2.contacto {
   padding-top: 50px;
   padding-left: 100px;
   padding-bottom: 0px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: initial;
 }
 
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .texto-nosotros {
   padding-right: 300px;
-  padding-bottom: 90px;
+  padding-bottom: 150px;
   border-bottom: solid 2px rgb(237, 214, 6);
 }
 
@@ -531,7 +586,7 @@ h2.contacto {
     text-align: center;
     padding: 50px;
     padding-top: 100px;
-    padding-bottom: 220px;
+    padding-bottom: 100px;
   }
   .texto-nosotros {
     padding: 0px;

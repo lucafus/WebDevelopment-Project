@@ -58,7 +58,7 @@
 .project1 img,
 .project2 img,
 .project3 img {
-    border-top-right-radius: 20px;
+    border-top-right-radius: 100px;
     object-fit: cover;
 }
 
@@ -83,8 +83,8 @@
     color: white;
     background-color: black;
     position: relative;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     padding: 30px;
     bottom: 70px;
     width: 1100px;

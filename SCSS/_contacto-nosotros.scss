@@ -18,6 +18,10 @@
 h2.contacto { 
 
     padding-left: 100px;
+    border-bottom-right-radius: 15px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count:initial;
        
 }
 
@@ -25,6 +29,11 @@ h2.contacto {
     display: flex;
     padding: 50px;
     padding-bottom: 0px;
+    padding-top: 100px;
+
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count:initial;
         
 }
 
@@ -33,7 +42,7 @@ h2.contacto {
     padding-left: 30px;
     max-width: 100%;
     padding-bottom: 40px;
-    border-radius: 10px;
+    border-top-right-radius: 50px;
 
 }
 
@@ -118,11 +127,27 @@ h2.contacto {
     padding-top: 50px;
     padding-left: 100px;
     padding-bottom: 0px;
+
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count:initial;
 }
+
+
+@keyframes aparecer {
+
+    0% { 
+        opacity: 0;
+    }
+    
+    100% { opacity: 1;}
+}
+
+
 
 .texto-nosotros {
     padding-right: 300px;
-    padding-bottom: 90px;
+    padding-bottom: 150px;
     border-bottom: solid 2px rgb(237, 214, 6);
    
 }
@@ -140,7 +165,7 @@ h2.contacto {
         text-align: center;
         padding: 50px;
         padding-top: 100px;
-        padding-bottom: 220px;
+        padding-bottom: 100px;
     }
 
     .texto-nosotros {
