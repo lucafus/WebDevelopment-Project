@@ -282,40 +282,70 @@ nav {
   border-top: solid 4px rgb(237, 214, 6);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1500px) {
+  
+
+  div.introducion {
+
+    font-size: 80px;;
+  }
+
   .location {
     padding-bottom: 0px;
   }
+
   .text-q {
     display: flex;
+    font-size: smaller;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px;
   }
+
   .text-q .titulo-q {
     padding: 10px;
     margin: 10px;
   }
+
   .text-q .texto-q {
+    font-size: 80%;
     padding: 20px;
     text-align: center;
     margin: 10px;
+    font-size: 1%;
   }
+
+  .text-q p {
+    font-size: small;
+  }
+
   .imagecontainer {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
     margin-top: 50px;
   }
+
   .subtitulo-img {
     display: flex;
     padding: 20px;
     margin: 0px;
   }
-  .image1, .image2, .image3 {
-    gap: 20px;
+
+  div.image1, div.image2, div.image3 {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
   }
+
+  div.subtitulo-img p {
+    
+    font-size: xx-large;
+  }
+
+
+
 }
 .contenedor-sidebar .sidebar {
   background: black;

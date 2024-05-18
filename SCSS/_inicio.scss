@@ -238,8 +238,11 @@ nav {
     
     }
     
+    
     .text-q {
+        
         display: flex;
+        font-size: smaller ;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -254,8 +257,12 @@ nav {
     .text-q .texto-q {
         padding: 20px;
         text-align: center;
-        margin: 10px
+        margin: 10px;
+        font-size: 1%;
     }
+
+    
+    .text-q p { font-size: small;}
 
     .imagecontainer {
         display: flex;
@@ -270,7 +277,10 @@ nav {
         margin: 0px;
     }
 
-    .image1, .image2, .image3 {
-        gap: 20px;
+    div.image1, div.image2, div.image3 {
+        display: flex;
+        flex-direction: column;
+        margin: 200px;
+
     }
 }
