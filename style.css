@@ -473,6 +473,9 @@ nav {
   }
 }
 /* Contacto */
+
+
+
 .contacto {
   display: flex;
   justify-content: end;
@@ -551,7 +554,7 @@ h2.contacto {
   row-gap: 10px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .Contacto {
     display: flex;
     flex-direction: column;
@@ -563,6 +566,8 @@ h2.contacto {
   .img img {
     display: flex;
     padding: 10px;
+    margin-left: 200px;
+    margin-top: 100px;
   }
   .text-c {
     padding: 10px;
@@ -570,6 +575,7 @@ h2.contacto {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    font-size: xx-large;
   }
   .Nombre-Apellido,
   .Email-Numero {
